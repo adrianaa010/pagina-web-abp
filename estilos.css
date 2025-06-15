@@ -1,0 +1,72 @@
+body {
+    background-color:  rgb(150, 255, 241);
+  }
+  div {
+      background-color:  rgb(215, 255, 150);
+      
+    }
+    div {
+        width: 75%;
+        float: left;
+    }
+    aside div {
+        width: 25%;
+        float: left;
+        background-color: #f4f961;
+    }
+
+ img {
+    width: 100%;
+    height: auto;
+} 
+article section div img {
+ width: 49%;
+ height: auto;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #f4f961;
+  background-color: #f7f25c;
+}
+
+ul {
+}
+
+li {
+   font-size: 24px;
+}
+
+nav ul li {
+  float: left;
+   font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(230, 7, 7);
+}
+
+li a.active {
+  color: white;
+  background-color:  #d418f5;
+}
+
+p {
+  font-size: 24px;
+}
+footer div{
+    text-align: center;
+    float: none;
+}
